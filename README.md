@@ -1,6 +1,17 @@
 # 简单天气系统demo
 这是一个具有查询当日天气和查询未来一周天气的简单天气系统
 
+### 打开方式
+#### 方法一：
+1. 
+```javascript
+    $ npm install
+    $ npm run dev_me
+```
+2. 在浏览器中打开./public/index.html
+
+
+
 ### 用到的技术/工具/库
 * react
 * redux
