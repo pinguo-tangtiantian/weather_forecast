@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack-dev-server --config webpack.test.config.js",
+    "dev_me": "webpack-dev-server --config webpack.config.js",
     "dev": "webpack-dev-server --config webpack.config.js --host 10.1.18.141",
     "build": "rm -rf ./public/* && webpack --config webpack.build.config.js"
   },
