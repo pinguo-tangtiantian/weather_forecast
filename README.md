@@ -8,6 +8,8 @@
     $ npm install
     $ npm run dev_me
 ```
+然后在浏览器中访问: http://localhost:3000  
+
 2. 在浏览器中打开./public/index.html
 
 
