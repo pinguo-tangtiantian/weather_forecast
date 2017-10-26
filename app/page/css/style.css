@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .show{
+    display: block;
+}
+
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.current-btn{
+    margin-right: 20px;
+}
+
+.loading-view{
+    /* margin: 30px auto; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.rect_box{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.rect_box > div {
+    background-color: #337ab7;
+    height: 150px;
+    width: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+  }
+
+  .loading-view .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+   
+  .loading-view .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+   
+  .loading-view .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+   
+  .loading-view .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+   
+  @-webkit-keyframes stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) } 
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+   
+  @keyframes stretchdelay {
+    0%, 40%, 100% {
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% {
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+
+  .inputBtn{
+      float: left;
+  }
+  .inputDiv{
+      display: none;
+  }
+  .inputDiv.active{
+    display: block;
+    transition: all 0.3s;
+  }

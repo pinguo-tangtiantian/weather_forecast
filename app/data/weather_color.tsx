@@ -1,0 +1,71 @@
+export const colors: any[] = [{
+    lte: -32,
+    color: '#000634'
+}, {
+    gt: -32,
+    lte: -28,
+    color: '#00239a'
+}, {
+    gt: -28,
+    lte: -24,
+    color: '#0043ff'
+}, {
+    gt: -24,
+    lte: -20,
+    color: '#0062ff'
+}, {
+    gt: -20,
+    lte: -16,
+    color: '#009eff'
+}, {
+    gt: -16,
+    lte: -12,
+    color: '#00cbff'
+}, {
+    gt: -12,
+    lte: -8,
+    color: '#00feff'
+}, {
+    gt: -8,
+    lte: -4,
+    color: '#83feff'
+}, {
+    gt: -4,
+    lte: 0,
+    color: '#beffff'
+}, {
+    gt: 0,
+    lte: 4,
+    color: '#fffb8d'
+}, {
+    gt: 4,
+    lte: 8,
+    color: '#fff900'
+},{
+    gt: 8,
+    lte: 12,
+    color: '#ffc400'
+}, {
+    gt: 12,
+    lte: 16,
+    color: '#ff965e'
+}, {
+    gt: 16,
+    lte: 20,
+    color: '#ff941d'
+}, {
+    gt: 20,
+    lte: 24,
+    color: '#ff6500'
+}, {
+    gt: 24,
+    lte: 28,
+    color: '#f51800'
+}, {
+    gt: 28,
+    lte: 32,
+    color: '#a00b00'
+}, {
+    gt: 32,
+    color: '#6b0400'
+}];
